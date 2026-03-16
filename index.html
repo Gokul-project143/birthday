@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Mam</title>
+
+<style>
+
+body{
+background:black;
+text-align:center;
+margin-top:200px;
+}
+
+h1{
+font-size:60px;
+color:white;
+animation: animation 2s infinite alternate;
+}
+
+@keyframes animation{
+0%{
+text-shadow:0 0 20px yellow,10px -10px 30px orange,-20px -20px 40px red;
+}
+100%{
+text-shadow:0 0 20px yellow,20px -20px 40px orange,-30px -30px 50px red;
+}
+}
+
+button{
+padding:15px 30px;
+font-size:20px;
+border:none;
+border-radius:25px;
+background:red;
+color:white;
+cursor:pointer;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>🎉 Happy Birthday Mam 🎂</h1>
+
+<br>
+
+<button onclick="next()">Click for Surprise 🎁</button>
+
+<script>
+function next(){
+window.location.href="page2.html";
+}
+</script>
+
+</body>
+</html>
